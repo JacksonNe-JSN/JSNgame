@@ -1,0 +1,33 @@
+
+====================
+时间: 2026-02-22 19:38:47,
+错误类型: ModuleNotFoundError,
+错误内容: No module named 'win10toast',
+在语句中的位置:
+ 文件: C:\Users\Administrator\Desktop\easyJG3D\功能5_天花板\LIBbase\JSNgame\message.py,
+行号: 2,
+代码: from win10toast import ToastNotifier,
+位置追踪: Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\easyJG3D\功能5_天花板\LIBbase\JSNgame\__init__.py", line 112, in init
+    from .message import Message
+  File "C:\Users\Administrator\Desktop\easyJG3D\功能5_天花板\LIBbase\JSNgame\message.py", line 2, in <module>
+    from win10toast import ToastNotifier
+ModuleNotFoundError: No module named 'win10toast'
+
+
+====================
+====================
+时间: 2026-02-22 19:39:07,
+错误类型: ModuleNotFoundError,
+错误内容: No module named 'LIBbase.JSNgame.message',
+在语句中的位置:
+ 文件: C:\Users\Administrator\Desktop\easyJG3D\功能5_天花板\LIBbase\JSNgame\__init__.py,
+行号: 112,
+代码: from .message import Message,
+位置追踪: Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\easyJG3D\功能5_天花板\LIBbase\JSNgame\__init__.py", line 112, in init
+    from .message import Message
+ModuleNotFoundError: No module named 'LIBbase.JSNgame.message'
+
+
+====================
